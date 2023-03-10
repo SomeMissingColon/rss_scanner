@@ -1,32 +1,64 @@
 let Parser = require('rss-parser');
 let parser = new Parser();
 let fs = require('fs')
-let url = 'https://www.ledevoir.com/rss/section/environnement.xml'
+let axios = require('axios')
 
+keywords = []
 
-const keywords = []
 fs.readFileSync('keywords.txt', 'utf8').split('\n').forEach(word=>{
-    keywords.push(word.replace(/(\r\n|\n|\r)/gm, "").toLowerCase())
+    keywords.push(` ${word.replace(/(\r\n|\n|\r)/gm, "").toLowerCase()} `)
 });
-console.log(keywords)
 
-let grabRss = function(url){
-    (async () => {
-        let feed = await parser.parseURL(url);
-                
-        feed.items.forEach(item => {
-            let title = item['title'].toLocaleLowerCase()
-            let content = item['content'].toLocaleLowerCase()
-            
-            keywords.forEach(keyword=>{
-                if (title.includes(keyword) || title.includes(keyword) ){
-                    console.log(item)
+rsss = []
+
+fs.readFileSync('rsss.txt','utf8').split('\n').forEach(word=>{
+    rsss.push(word.replace(/(\r\n|\n|\r)/gm, "").toLowerCase())
+});
+
+console.log(rsss)
+
+let grabRss = function(rsss){
+    rsss.forEach(rss =>{
+
+        (async () => {
+            let feed = await parser.parseURL(rss);
+                    
+            feed.items.forEach(item => {
+                try{
+                    let title = item['title'].toLocaleLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+                    let content = item['content'].toLocaleLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+                    let link = item['link']
+                    
+                    let count = 0
+                    let matched = false
+                    while (!matched){
+                        if (keywords.length > count){
+                         
+                            if (title.includes(keywords[count]) || content.includes(keywords[count]) ){
+                                console.log(keywords[count])
+                                let row = [title,link,content].toString()
+                                
+                                fs.appendFileSync('ecologicalnews.txt','\r\n')
+                                fs.appendFileSync('ecologicalnews.txt',row)
+                                matched = true
+                            }             
+                            
+                            count++
+
+
+                        }else{
+                            matched = true
+                        }
+                            
+                     
+                    }
+                }catch(err){
+                    console.log(err)
                 }
-
-                
             });
-            
-        });
-      })();
+          })();
+    })
+   
 };
-grabRss(url       )
+
+grabRss(rsss)
