@@ -1,55 +1,189 @@
-Carbondioxide
-CO2
-Greenhouse Gas
-Emissions
-Climate
-Global warming
-climate change
-Fossil Fuels
-Sea-Level
-Global average temperature
-biosphere
-Pollution
-plastic
-petrol
-coal
-carbon
-fracking
-fractionnement
-gas de schiste
-environement
-ges
-effet de serre
-plastique
-Carbon
-carbonne
-Changement climatique
-Émissions de gaz à effet de serre
-Réchauffement planétaire
-Effet de serre
-Déforestation
-Érosion des sols
-Acidification des océans
-Pluies acides
-Pollution de l'air
-Pollution de l'eau
-Pollution des sols
-Déchets toxiques
-Déchets électroniques
-Énergie renouvelable
-Énergie solaire
-Énergie éolienne
-Énergie hydraulique
-Énergie géothermique
-Transition énergétique
-Économie circulaire
-Consommation responsable
-Transport durable
-Agriculture durable
-Économie verte
-Neutralité carbone
-Adaptation aux changements climatiques
-Biodiversité
-Espèces en voie de disparition
-Réchauffement de l'Arctique
-Fonte des glaciers.
+Innovation,prototypage
+Innovation,prototyping
+Innovation,crowdfunding
+Innovation,financement participatif
+Innovation,open source
+Innovation,code ouvert
+Innovation,ingénierie
+Innovation,engineering
+Innovation,biotechnologie
+Innovation,biotechnology
+Innovation,nanotechnologie
+Innovation,nanotechnology
+Innovation,robotique
+Innovation,robotics
+Innovation,cybersecurity
+Innovation,cybersécurité
+Innovation,smart city
+Innovation,ville intelligente
+Innovation,machine learning
+Innovation,apprentissage automatique
+Innovation,quantum computing
+Innovation,informatique quantique
+Innovation,big data
+Innovation,mégadonnées
+Innovation,virtual reality
+Innovation,réalité virtuelle
+Innovation,augmented reality
+Innovation,réalité augmentée
+Innovation,edge computing
+Innovation,informatique en périphérie
+
+Art & Artists,gravure
+Art & Artists,printmaking
+Art & Artists,poterie
+Art & Artists,pottery
+Art & Artists,textile
+Art & Artists,architecture
+Art & Artists,littérature
+Art & Artists,literature
+Art & Artists,poésie
+Art & Artists,poetry
+Art & Artists,métiers d'art
+Art & Artists,fine crafts
+Art & Artists,art numérique
+Art & Artists,digital art
+Art & Artists,art abstrait
+Art & Artists,abstract art
+Art & Artists,art figuratif
+Art & Artists,figurative art
+Art & Artists,art contemporain
+Art & Artists,contemporary art
+Art & Artists,art moderne
+Art & Artists,modern art
+Art & Artists,animation
+Art & Artists,bande dessinée
+Art & Artists,comics
+Art & Artists,collage
+Art & Artists,mosaïque
+Art & Artists,mosaic
+Art & Artists,art en plein air
+Art & Artists,plein air art
+
+Wellness,acupuncture
+Wellness,réflexologie
+Wellness,reflexology
+Wellness,naturopathie
+Wellness,naturopathy
+Wellness,ostéopathie
+Wellness,osteopathy
+Wellness,homéopathie
+Wellness,homeopathy
+Wellness,biofeedback
+Wellness,thérapie par le son
+Wellness,sound therapy
+Wellness,qi gong
+Wellness,taï chi
+Wellness,Tai Chi
+Wellness,pilates
+Wellness,coaching de vie
+Wellness,life coaching
+Wellness,santé holistique
+Wellness,holistic health
+Wellness,épanouissement personnel
+Wellness,personal growth
+Wellness,autoguérison
+Wellness,self-healing
+Wellness,thérapie par le rire
+Wellness,laughter therapy
+Wellness,hydrothérapie
+Wellness,hydrotherapy
+Wellness,chromothérapie
+Wellness,chromotherapy
+Wellness,ayurveda
+
+Local Collaboration,jardinage communautaire
+Local Collaboration,community gardening
+Local Collaboration,troc
+Local Collaboration,barter
+Local Collaboration,échange de compétences
+Local Collaboration,skill-sharing
+Local Collaboration,partage de ressources
+Local Collaboration,resource sharing
+Local Collaboration,ateliers
+Local Collaboration,workshops
+Local Collaboration,rencontres intergénérationnelles
+Local Collaboration,intergenerational meetings
+Local Collaboration,groupes d'achat
+Local Collaboration,buying groups
+Local Collaboration,artisanat local
+Local Collaboration,local crafts
+Local Collaboration,espaces de coworking
+Local Collaboration,coworking spaces
+Local Collaboration,recyclage
+Local Collaboration,recycling
+Local Collaboration,upcycling
+Local Collaboration,réemploi
+Local Collaboration,compostage
+Local Collaboration,composting
+Local Collaboration,éducation populaire
+Local Collaboration,popular education
+Local Collaboration,économie circulaire
+Local Collaboration,circular economy
+Local Collaboration,incubateurs
+Local Collaboration,incubators
+Local Collaboration,initiatives locales
+Local Collaboration,local initiatives
+
+Politics,décentralisation
+Politics,decentralization
+Politics,mondialisation
+Politics,globalization
+Politics,éthique
+Politics,ethics
+Politics,droits des femmes
+Politics,women's rights
+Politics,égalité des genres
+Politics,gender equality
+Politics,liberté d'expression
+Politics,freedom of speech
+Politics,corruption
+Politics,transparence
+Politics,transparency
+Politics,souveraineté
+Politics,sovereignty
+Politics,migration
+Politics,immigration
+Politics,nationalisme
+Politics,nationalism
+Politics,fédéralisme
+Politics,federalism
+Politics,anarchisme
+Politics,anarchism
+Politics,socialisme
+Politics,socialism
+Politics,capitalisme
+Politics,capitalism
+Politics,libertarianisme
+Politics,libertarianism
+
+Ecology,conservation
+Ecology,préservation
+Ecology,biodiversité
+Ecology,biodiversity
+Ecology,espèces menacées
+Ecology,endangered species
+Ecology,écosystèmes
+Ecology,ecosystems
+Ecology,changement climatique
+Ecology,climate change
+Ecology,pollution
+Ecology,énergies renouvelables
+Ecology,renewable energies
+Ecology,recyclage
+Ecology,recycling
+Ecology,réduction des déchets
+Ecology,waste reduction
+Ecology,économie circulaire
+Ecology,circular economy
+Ecology,gestion de l'eau
+Ecology,water management
+Ecology,protection des sols
+Ecology,soil protection
+Ecology,éco-construction
+Ecology,green building
+Ecology,agroécologie
+Ecology,agroecology
+Ecology,permaculture
+Ecology,urbanisme durable
+Ecology,sustainable urbanism
